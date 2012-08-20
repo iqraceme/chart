@@ -132,3 +132,4 @@ class Chart(gobject.GObject):
     def as_png(self, file):
         """Save the chart as png image"""
         self.surface.write_to_png(file)
+
