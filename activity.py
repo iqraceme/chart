@@ -641,7 +641,7 @@ class ChartActivity(activity.Activity):
 
     def _measure_btn_clicked(self, button):
         palette = button.get_palette()
-        palette.popup(immediate=True, state=1)
+        palette.popup(immediate=True)
 
     def _add_value(self, widget, label='', value='0.0'):
         if label == '':
